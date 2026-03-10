@@ -26,7 +26,7 @@ const films = [
 ];
 
 const Home = () => {
-  const [movies, setMovies] = useState(movieData);
+  const [movies] = useState(movieData);
   const [current, setCurrent] = useState(0);
   const [search, setSearch] = useState("");
 
