@@ -1,0 +1,136 @@
+/* Header asosiy stili */
+.header-cn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-cn ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-cn img {
+    width: 300px;
+    height: auto;
+    border-radius: 90px;
+}
+
+header {
+    background: linear-gradient(135deg,#0b0429,#1a0f4a);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 30px;
+}
+
+.header-cn ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* BEFORE */
+.header-cn ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s;
+}
+
+/* AFTER */
+.header-cn ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    top: -5px;
+    right: 0;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.header-cn ul li a:hover::before,
+.header-cn ul li a:hover::after {
+    width: 100%;
+}
+
+.header-cn ul li a:hover {
+    color: #ffd700;
+}
+
+/* ============================= */
+/* Responsive Styles (1300px → 300px) */
+/* ============================= */
+
+/* Large screens < 1200px */
+@media (max-width: 1200px) {
+    .header-cn img {
+        width: 250px;
+    }
+    .header-cn ul li a {
+        font-size: 18px;
+    }
+    .header-cn ul {
+        gap: 25px;
+    }
+}
+
+/* Medium screens < 992px */
+@media (max-width: 992px) {
+    .header-cn {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-cn img {
+        width: 200px;
+    }
+    .header-cn ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .header-cn ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Small screens < 768px */
+@media (max-width: 768px) {
+    .header-cn img {
+        width: 150px;
+    }
+    .header-cn ul li a {
+        font-size: 14px;
+    }
+    .header-cn ul {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-cn img {
+        width: 120px;
+        border-radius: 60px;
+    }
+    .header-cn ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .header-cn ul li a {
+        font-size: 12px;
+    }
+}
