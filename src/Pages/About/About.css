@@ -34,7 +34,7 @@ p {
     padding: 10px 20px;
 }
 
-button {
+.btn {
     position: relative;
     padding: 12px 30px;
     font-size: 16px;
@@ -50,7 +50,7 @@ button {
 }
 
 /* BEFORE EFFECT */
-button::before {
+.btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -62,7 +62,7 @@ button::before {
 }
 
 /* AFTER EFFECT */
-button::after {
+.btn::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -73,18 +73,18 @@ button::after {
 }
 
 /* HOVER */
-button:hover {
+.btn:hover {
     background: linear-gradient(135deg, #180276, #130163);
     transform: translateY(-3px);
 }
 
 /* BEFORE ANIMATION */
-button:hover::before {
+.btn:hover::before {
     left: 100%;
 }
 
 /* AFTER GLOW */
-button:hover::after {
+.btn:hover::after {
     opacity: 1;
 }
 #Spid{
@@ -160,4 +160,159 @@ button:hover::after {
         font-size: 13px;
         padding: 8px 15px;
     }
+}
+#Me{
+        background: linear-gradient(135deg,#0b0429,#1a0f4a);
+
+}
+.a-tex p{
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e6e6e6;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 25px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    border-left: 4px solid #6a5cff;
+    --backdrop-filter: blur(6px);
+    transition: 0.3s;
+}
+
+/* hover */
+.a-tex p:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* first letter */
+.a-tex p::first-letter{
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a5cff;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* 1200px */
+@media (max-width:1200px){
+
+.my-m,
+.spid-m{
+    flex-direction: column;
+    text-align: center;
+}
+
+.my-m img,
+.spid-m img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+h1{
+    font-size: 34px;
+}
+
+p{
+    font-size: 17px;
+}
+
+}
+
+/* 992px */
+@media (max-width:992px){
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.btn{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+}
+
+/* 768px */
+@media (max-width:768px){
+
+#My,
+#Spid,
+#Me{
+    padding: 60px 10px;
+}
+
+.my-m img,
+.spid-m img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 26px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.btn{
+    width: 100%;
+}
+
+}
+
+/* 576px */
+@media (max-width:576px){
+
+h1{
+    font-size: 22px;
+}
+
+p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.a-tex p{
+    font-size: 15px;
+    padding: 15px;
+}
+
+}
+
+/* 400px */
+@media (max-width:400px){
+
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px;
+}
+
+}
+
+/* 300px */
+@media (max-width:300px){
+
+h1{
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+}
+
 }

@@ -1,0 +1,147 @@
+#put{
+        background: linear-gradient(135deg,#0b0429,#1a0f4a);
+
+}
+#put{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.put{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.put input{
+    height: 45px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* hover */
+.put input:hover{
+    border-color: #6a5cff;
+}
+
+/* focus */
+.put input:focus{
+    border-color: #6a5cff;
+    box-shadow: 0 0 10px rgba(106,92,255,0.5);
+}
+
+/* button */
+.put button{
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#6a5cff,#8f7bff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* hover */
+.put button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* active */
+.put button:active{
+    transform: scale(0.95);
+}
+/* ===== RESPONSIVE 1300px va past ===== */
+@media (max-width: 1300px) {
+
+    .put {
+        width: 90%;
+        max-width: 400px;
+        gap: 14px;
+        margin: 0 auto;
+    }
+
+    .put input {
+        height: 44px;
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+    .put button {
+        height: 44px;
+        font-size: 15px;
+    }
+
+}
+
+/* ===== 992px va past ===== */
+@media (max-width: 992px) {
+
+    .put {
+        width: 80%;
+        max-width: 360px;
+        gap: 12px;
+    }
+
+    .put input {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .put button {
+        height: 42px;
+        font-size: 14px;
+    }
+
+}
+
+/* ===== 768px va past ===== */
+@media (max-width: 768px) {
+
+    .put {
+        width: 95%;
+        max-width: 320px;
+        gap: 10px;
+    }
+
+    .put input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .put button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+/* ===== 480px va past ===== */
+@media (max-width: 480px) {
+
+    .put {
+        width: 95%;
+        max-width: 280px;
+        gap: 8px;
+    }
+
+    .put input {
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .put button {
+        height: 38px;
+        font-size: 13px;
+    }
+
+}

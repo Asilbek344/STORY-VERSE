@@ -666,6 +666,306 @@ const data = [
   "genre": ["Animation","Adventure","Family"],
   "image": "https://image.tmdb.org/t/p/w500/qzBdv7X9ZlFhs9EqlnWJp7sDP1U.jpg"
 },
+{
+  "id": 111,
+  "title": "Tenet",
+  "genre": ["Action","Sci-Fi","Thriller"],
+  "image": "https://image.tmdb.org/t/p/w500/k68nPLbIST6NP96JmTxmZijEvCA.jpg"
+},
+{
+  "id": 112,
+  "title": "The Batman",
+  "genre": ["Action","Crime","Drama"],
+  "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+},
+{
+  "id": 113,
+  "title": "The Suicide Squad",
+  "genre": ["Action","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg"
+},
+{
+  "id": 114,
+  "title": "Everything Everywhere All at Once",
+  "genre": ["Action","Sci-Fi","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+},
+{
+  "id": 115,
+  "title": "The Northman",
+  "genre": ["Action","Adventure","Drama"],
+  "image": "https://image.tmdb.org/t/p/w500/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg"
+},
+{
+  "id": 116,
+  "title": "Nope",
+  "genre": ["Horror","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg"
+},
+{
+  "id": 117,
+  "title": "The Whale",
+  "genre": ["Drama"],
+  "image": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg"
+},
+{
+  "id": 118,
+  "title": "The Menu",
+  "genre": ["Thriller","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/v31MsWhF9WFh7Qooq6xSBbmJxoG.jpg"
+},
+{
+  "id": 119,
+  "title": "The Super Mario Bros. Movie",
+  "genre": ["Animation","Adventure","Family"],
+  "image": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg"
+},
+{
+  "id": 120,
+  "title": "Elemental",
+  "genre": ["Animation","Family","Fantasy"],
+  "image": "https://image.tmdb.org/t/p/w500/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+},
+{
+  "id": 121,
+  "title": "The Boy and the Heron",
+  "genre": ["Animation","Fantasy"],
+  "image": "https://image.tmdb.org/t/p/w500/jDQPkgzerGophKRRn7MKm071vCU.jpg"
+},
+{
+  "id": 122,
+  "title": "Killers of the Flower Moon",
+  "genre": ["Crime","Drama"],
+  "image": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg"
+},
+{
+  "id": 123,
+  "title": "Poor Things",
+  "genre": ["Fantasy","Romance"],
+  "image": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
+},
+{
+  "id": 124,
+  "title": "The Beekeeper",
+  "genre": ["Action","Thriller"],
+  "image": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg"
+},
+{
+  "id": 125,
+  "title": "Argylle",
+  "genre": ["Action","Comedy","Spy"],
+  "image": "https://image.tmdb.org/t/p/w500/95VlSEfLMqeX36UVcHJuNlWEpwf.jpg"
+},
+{
+  "id": 126,
+  "title": "Madame Web",
+  "genre": ["Action","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg"
+},
+{
+  "id": 127,
+  "title": "The Fall Guy",
+  "genre": ["Action","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/tSz1qsmSJon0rqjHBxXZmrotuse.jpg"
+},
+{
+  "id": 128,
+  "title": "Alien: Romulus",
+  "genre": ["Horror","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/3jzYb6GZyX9dQ8q1Y5F2rM8Nl4F.jpg"
+},
+{
+  "id": 129,
+  "title": "Gladiator II",
+  "genre": ["Action","Drama","History"],
+  "image": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg"
+},
+{
+  "id": 130,
+  "title": "Avatar 3",
+  "genre": ["Action","Adventure","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/9E0P5E1Wn0RvrRZtGJPD7W82dqo.jpg"
+},
+{
+  "id": 131,
+  "title": "Doctor Strange",
+  "genre": ["Fantasy","Action","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg"
+},
+{
+  "id": 132,
+  "title": "Doctor Strange in the Multiverse of Madness",
+  "genre": ["Fantasy","Action","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+},
+{
+  "id": 133,
+  "title": "Fantastic Beasts and Where to Find Them",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/fLsaFKExQt05yqjoAvKsmOMYvJR.jpg"
+},
+{
+  "id": 134,
+  "title": "Fantastic Beasts: The Crimes of Grindelwald",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/kQK9u9Bf6YNJ9Y7bU6pCjzqD2cA.jpg"
+},
+{
+  "id": 135,
+  "title": "Fantastic Beasts: The Secrets of Dumbledore",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg"
+},
+{
+  "id": 136,
+  "title": "Ready Player One",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
+},
+{
+  "id": 137,
+  "title": "The Tomorrow War",
+  "genre": ["Sci-Fi","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/34nDCQZwaEvsy4CFO5hkGRFDCVU.jpg"
+},
+{
+  "id": 138,
+  "title": "Edge of Tomorrow",
+  "genre": ["Sci-Fi","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/yUmSVctt9F3Y5wS5CqV3ZkR9a0Q.jpg"
+},
+{
+  "id": 139,
+  "title": "Oblivion",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/eO3r38fwnhb58M1YgcjQBd3VNcp.jpg"
+},
+{
+  "id": 140,
+  "title": "Eternals",
+  "genre": ["Fantasy","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/b6qUu00iIIkXX13szFy7d0CyNcg.jpg"
+},
+{
+  "id": 141,
+  "title": "The Creator",
+  "genre": ["Sci-Fi","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg"
+},
+{
+  "id": 142,
+  "title": "Moonfall",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg"
+},
+{
+  "id": 143,
+  "title": "65",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/rzRb63TldOKdKydCvWJM8B6EkPM.jpg"
+},
+{
+  "id": 144,
+  "title": "Chaos Walking",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg"
+},
+{
+  "id": 145,
+  "title": "The Adam Project",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg"
+},
+{
+  "id": 146,
+  "title": "Project Power",
+  "genre": ["Sci-Fi","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/TnOeov4w0sTtV2gqICqIxVi74V.jpg"
+},
+{
+  "id": 147,
+  "title": "Mortal Kombat",
+  "genre": ["Fantasy","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
+},
+{
+  "id": 148,
+  "title": "Hellboy",
+  "genre": ["Fantasy","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/4U8Wbj0YQ9Qh3vYwM1lJtMnbN2N.jpg"
+},
+{
+  "id": 149,
+  "title": "The Old Guard",
+  "genre": ["Fantasy","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/cjr4NWURcVN3gW5FlHeabgBHLrY.jpg"
+},
+{
+  "id": 150,
+  "title": "Shazam!",
+  "genre": ["Fantasy","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
+},
+{
+  "id": 151,
+  "title": "Shazam! Fury of the Gods",
+  "genre": ["Fantasy","Action"],
+  "image": "https://image.tmdb.org/t/p/w500/2VK4d3mqqTc7LVZLnLPeRiPaJ71.jpg"
+},
+{
+  "id": 152,
+  "title": "The Sorcerer's Apprentice",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/3hQ7wq3p7N3y9Yx8RJWb1x1o1tT.jpg"
+},
+{
+  "id": 153,
+  "title": "Eragon",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/7Q7cN0zZZhXnE4n4t4WRPcNI0Y3.jpg"
+},
+{
+  "id": 154,
+  "title": "Dragonheart",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/8yVZq1bVbWcv16O3MHuvb6jVWeN.jpg"
+},
+{
+  "id": 155,
+  "title": "The Dark Tower",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/i9GUSgddIqrroubiLsvvMRYyRy0.jpg"
+},
+{
+  "id": 156,
+  "title": "Warcraft",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/nHXiMnWUAUba2LZ0sU4G0u7hHnK.jpg"
+},
+{
+  "id": 157,
+  "title": "Prince of Persia: The Sands of Time",
+  "genre": ["Fantasy","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/jI6Y8YqXxA3GqG3D1iWZ1zV9lN4.jpg"
+},
+{
+  "id": 158,
+  "title": "John Carter",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/lCxz1Yus07QCQQCb6I0Dr3Lmqpx.jpg"
+},
+{
+  "id": 159,
+  "title": "Valerian and the City of a Thousand Planets",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/j8607mHTtY7QJ7Wq5h0y2S3E8EM.jpg"
+},
+{
+  "id": 160,
+  "title": "Jupiter Ascending",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/aMEsvTUklw0uZ3gk3Q6lAj6302a.jpg"
+},
 
 
 ];

@@ -1,4 +1,3 @@
-/* Header asosiy stili */
 .header-cn {
     display: flex;
     align-items: center;
@@ -22,7 +21,7 @@
 }
 
 header {
-    background: linear-gradient(135deg,#0b0429,#1a0f4a);
+    background: linear-gradient(135deg, #0b0429, #1a0f4a);
     position: fixed;
     top: 0;
     width: 100%;
@@ -72,50 +71,156 @@ header {
     color: #ffd700;
 }
 
-/* ============================= */
-/* Responsive Styles (1300px → 300px) */
-/* ============================= */
+.btn-2 {
+    width: 110px;
+    height: 42px;
+    background: linear-gradient(135deg,#6a5cff,#8f7bff);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
 
-/* Large screens < 1200px */
+/* before glow */
+.btn-2::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,0.2);
+    transition: 0.4s;
+}
+
+/* after border light */
+.btn-2::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+/* hover */
+.btn-2:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.btn-2:hover::before{
+    width: 100%;
+}
+
+/* active */
+.btn-2:active{
+    transform: scale(0.95);
+}
+
+
+.premium-modal{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal-box{
+    width: 350px;
+    background: #0b0429;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.modal-box h2{
+    margin-bottom: 10px;
+}
+
+.modal-box p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.price{
+    background: #1b1254;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.price:hover{
+    background: #6a5cff;
+}
+
+.close-btn{
+    margin-top: 15px;
+    padding: 6px 15px;
+    border: none;
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media (max-width: 1200px) {
     .header-cn img {
         width: 250px;
     }
+
     .header-cn ul li a {
         font-size: 18px;
     }
+
     .header-cn ul {
         gap: 25px;
     }
 }
 
-/* Medium screens < 992px */
+
 @media (max-width: 992px) {
     .header-cn {
         flex-direction: column;
         gap: 20px;
     }
+
     .header-cn img {
         width: 200px;
     }
+
     .header-cn ul {
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
     }
+
     .header-cn ul li a {
         font-size: 16px;
     }
 }
 
-/* Small screens < 768px */
+
 @media (max-width: 768px) {
     .header-cn img {
         width: 150px;
     }
+
     .header-cn ul li a {
         font-size: 14px;
     }
+
     .header-cn ul {
         gap: 10px;
     }
@@ -126,10 +231,12 @@ header {
         width: 120px;
         border-radius: 60px;
     }
+
     .header-cn ul {
         flex-direction: column;
         gap: 8px;
     }
+
     .header-cn ul li a {
         font-size: 12px;
     }
