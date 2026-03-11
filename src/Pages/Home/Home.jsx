@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import movieData from "../../data";
 import "./Home.css";
 
-// Slider images
 const films = [
   {
     img: "https://image.tmdb.org/t/p/w500/6kPZ4dMGCmNWcJzX2xR7bH38aM1.jpg",
@@ -30,22 +29,22 @@ const Home = () => {
   const [current, setCurrent] = useState(0);
   const [search, setSearch] = useState("");
 
-  // Slider interval
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % films.length);
     }, 5000);
+
     return () => clearInterval(interval);
   }, []);
 
-  // Filter movies by search
-  const filteredData = movies.filter((item) =>
-    item.title.toLowerCase().includes(search.toLowerCase())
+  const filteredData = movies.filter((movie) =>
+    movie.title.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
     <main>
-      {/* Slider Section */}
+
+      {/* SLIDER */}
       <section className="slider-section">
         <div className="container slider-container">
           {films.map((film, index) => (
@@ -65,9 +64,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Search Section */}
+      {/* SEARCH */}
       <section id="search">
         <div className="container home-cn">
+
           <input
             type="search"
             placeholder="Kinoni nomini yozing..."
@@ -75,24 +75,27 @@ const Home = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
 
-          <button>Qidirish</button>
-
           <div className="search-result">
             {filteredData.map((movie) => (
               <div key={movie.id} className="movie-card">
-                {/* TMDb image optimized to w200 + lazy loading */}
                 <img
-                  src={movie.image.replace("/w500/", "/w200/")}
+                  src={movie.image}
                   alt={movie.title}
                   loading="lazy"
                 />
                 <h3>{movie.title}</h3>
-                <Link to={`/movie/${movie.id}`}>Batafsil</Link>
+
+                <Link to={`/movie/${movie.id}`}>
+                  Batafsil
+                </Link>
+
               </div>
             ))}
           </div>
+
         </div>
       </section>
+
     </main>
   );
 };

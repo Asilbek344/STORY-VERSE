@@ -395,8 +395,279 @@ const data = [
     "title": "Spider-Man: Into the Spider-Verse",
     "genre": ["Animation", "Action", "Adventure"],
     "image": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8s4L8dMZyfxh.jpg"
-  }
-];
+  },
+  {
+    "id": 67,
+    "title": "Dune: Part Two",
+    "genre": ["Sci-Fi", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+  },
+  {
+    "id": 68,
+    "title": "Deadpool & Wolverine",
+    "genre": ["Action", "Comedy", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+  },
+  {
+    "id": 69,
+    "title": "Furiosa: A Mad Max Saga",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"
+  },
+  {
+    "id": 70,
+    "title": "Godzilla x Kong: The New Empire",
+    "genre": ["Action", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"
+  },
+  {
+    "id": 71,
+    "title": "Kingdom of the Planet of the Apes",
+    "genre": ["Sci-Fi", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg"
+  },
+  {
+    "id": 72,
+    "title": "The Fall Guy",
+    "genre": ["Action", "Comedy"],
+    "image": "https://image.tmdb.org/t/p/w500/tSz1qsmSJon0rqjHBxXZmrotuse.jpg"
+  },
+  {
+    "id": 73,
+    "title": "Civil War",
+    "genre": ["Action", "Drama"],
+    "image": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg"
+  },
+  {
+    "id": 74,
+    "title": "Inside Out 2",
+    "genre": ["Animation", "Family"],
+    "image": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
+  },
+  {
+    "id": 75,
+    "title": "Kung Fu Panda 4",
+    "genre": ["Animation", "Action"],
+    "image": "https://image.tmdb.org/t/p/w500/w5fSSv2RyZkPpJX0hFvS7hJ2OZK.jpg"
+  },
+  {
+    "id": 76,
+    "title": "Wonka",
+    "genre": ["Fantasy", "Family"],
+    "image": "https://image.tmdb.org/t/p/w500/qhb1qOilapbapxWQn9jtRCMwXJF.jpg"
+  },
+  {
+    "id": 77,
+    "title": "Aquaman and the Lost Kingdom",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg"
+  },
+  {
+    "id": 78,
+    "title": "The Marvels",
+    "genre": ["Action", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/Ag3D9qXjhJ2FUkrlJ0Cv1pgxqYQ.jpg"
+  },
+  {
+    "id": 79,
+    "title": "Mission: Impossible – Dead Reckoning",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg"
+  },
+  {
+    "id": 80,
+    "title": "John Wick: Chapter 4",
+    "genre": ["Action", "Crime"],
+    "image": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
+  },
+  {
+    "id": 81,
+    "title": "The Batman",
+    "genre": ["Action", "Crime"],
+    "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+  },
+  {
+    "id": 82,
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "genre": ["Action", "Fantasy"],
+    "image": "https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+  },
+  {
+    "id": 83,
+    "title": "Shang-Chi",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg"
+  },
+  {
+    "id": 84,
+    "title": "Thor: Love and Thunder",
+    "genre": ["Action", "Fantasy"],
+    "image": "https://image.tmdb.org/t/p/w500/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
+  },
+  {
+    "id": 85,
+    "title": "Top Gun: Maverick",
+    "genre": ["Action", "Drama"],
+    "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+  },
+  {
+    "id": 86,
+    "title": "The Flash",
+    "genre": ["Action", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg"
+  },
+  {
+    "id": 87,
+    "title": "Transformers: Rise of the Beasts",
+    "genre": ["Action", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/gPbM0MK8CP8A174rmUwGsADNYKD.jpg"
+  },
+  {
+    "id": 88,
+    "title": "Meg 2: The Trench",
+    "genre": ["Action", "Sci-Fi"],
+    "image": "https://image.tmdb.org/t/p/w500/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg"
+  },
+  {
+    "id": 89,
+    "title": "The Hunger Games: The Ballad of Songbirds",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg"
+  },
+  {
+    "id": 90,
+    "title": "Oppenheimer",
+    "genre": ["Drama", "History"],
+    "image": "https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg"
+  },
+  {
+    "id": 91,
+    "title": "Barbie",
+    "genre": ["Comedy", "Fantasy"],
+    "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+  },
+  {
+    "id": 92,
+    "title": "Gran Turismo",
+    "genre": ["Action", "Drama"],
+    "image": "https://image.tmdb.org/t/p/w500/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg"
+  },
+  {
+    "id": 93,
+    "title": "The Creator",
+    "genre": ["Sci-Fi", "Action"],
+    "image": "https://image.tmdb.org/t/p/w500/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg"
+  },
+  {
+    "id": 94,
+    "title": "Napoleon",
+    "genre": ["Drama", "History"],
+    "image": "https://image.tmdb.org/t/p/w500/jE5o7y9K6pZtWNNMEw3IdpHuncR.jpg"
+  },
+  {
+    "id": 95,
+    "title": "Five Nights at Freddy's",
+    "genre": ["Horror"],
+    "image": "https://image.tmdb.org/t/p/w500/7BpNtNfxuocYEVREzVMO75hso1l.jpg"
+  },
+  {
+    "id": 96,
+    "title": "Smile",
+    "genre": ["Horror", "Thriller"],
+    "image": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg"
+  },
+  {
+    "id": 97,
+    "title": "Scream VI",
+    "genre": ["Horror"],
+    "image": "https://image.tmdb.org/t/p/w500/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg"
+  },
+  {
+    "id": 98,
+    "title": "No Time to Die",
+    "genre": ["Action", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
+  },
+  {
+    "id": 99,
+    "title": "The Exorcist: Believer",
+    "genre": ["Horror"],
+    "image": "https://image.tmdb.org/t/p/w500/8KGPYy3i9Xy6Ff5o2JpFQyq1hQk.jpg"
+  },
+  {
+    "id": 100,
+    "title": "Rebel Moon",
+    "genre": ["Sci-Fi", "Adventure"],
+    "image": "https://image.tmdb.org/t/p/w500/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg"
+  },
 
+
+
+
+
+  // Yangi 100 film (2023–2025 yillar)
+{
+  "id": 101,
+  "title": "Mission: Impossible – The Final Reckoning",
+  "genre": ["Action","Adventure","Spy"],
+  "image": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg"
+},
+{
+  "id": 102,
+  "title": "Inside Out 2",
+  "genre": ["Animation","Family","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
+},
+{
+  "id": 103,
+  "title": "Zootopia 2",
+  "genre": ["Animation","Family","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/ytw6Z1pJp2UuJm4lWrtZgrIQo4C.jpg"
+},
+{
+  "id": 104,
+  "title": "Deadpool & Wolverine",
+  "genre": ["Action","Comedy","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+},
+{
+  "id": 105,
+  "title": "Dune: Part Two",
+  "genre": ["Sci-Fi","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+},
+{
+  "id": 106,
+  "title": "Furiosa: A Mad Max Saga",
+  "genre": ["Action","Adventure"],
+  "image": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"
+},
+{
+  "id": 107,
+  "title": "Godzilla x Kong: The New Empire",
+  "genre": ["Action","Sci-Fi"],
+  "image": "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"
+},
+{
+  "id": 108,
+  "title": "Kung Fu Panda 4",
+  "genre": ["Animation","Action","Comedy"],
+  "image": "https://image.tmdb.org/t/p/w500/w5fSSv2RyZkPpJX0hFvS7hJ2OZK.jpg"
+},
+{
+  "id": 109,
+  "title": "Sonic the Hedgehog 3",
+  "genre": ["Action","Adventure","Family"],
+  "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+},
+{
+  "id": 110,
+  "title": "Moana 2",
+  "genre": ["Animation","Adventure","Family"],
+  "image": "https://image.tmdb.org/t/p/w500/qzBdv7X9ZlFhs9EqlnWJp7sDP1U.jpg"
+},
+
+
+];
 
 export default data
