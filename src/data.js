@@ -1,184 +1,184 @@
 const data = [
-  {
-    "id": 1,
-    "title": "The Shape of Water",
-    "genre": ["Romance", "Fantasy", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/k4FwHlMhuRR5BISY2Gm2QZHlH5Q.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Stardust",
-    "genre": ["Fantasy", "Adventure", "Romance"],
-    "image": "https://image.tmdb.org/t/p/w500/3O8OZ8X0qYhG9R8w0j7sKnzGWxZ.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Beauty and the Beast",
-    "genre": ["Fantasy", "Romance", "Family"],
-    "image": "https://image.tmdb.org/t/p/w500/6aUWe0GSl69wMTSWWexsorMIvwU.jpg"
-  },
-  {
-    "id": 4,
-    "title": "The Princess Bride",
-    "genre": ["Fantasy", "Adventure", "Romance"],
-    "image": "https://image.tmdb.org/t/p/w500/dvjqlp2sAhUeFjUOfQDgCqj0VjD.jpg"
-  },
-  {
-    "id": 5,
-    "title": "Enchanted",
-    "genre": ["Fantasy", "Romance", "Comedy"],
-    "image": "https://image.tmdb.org/t/p/w500/8KzRk7l0G2m5YkN0rF3v9mV7G4B.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Aladdin",
-    "genre": ["Fantasy", "Adventure", "Romance"],
-    "image": "https://image.tmdb.org/t/p/w500/3iYQTLGoy7QnjcUYRJy4YrAgGvp.jpg"
-  },
-  {
-    "id": 7,
-    "title": "Cinderella",
-    "genre": ["Fantasy", "Romance", "Family"],
-    "image": "https://image.tmdb.org/t/p/w500/oEhY7UwVYvG2H0tN8c6VbWm6q3b.jpg"
-  },
-  {
-    "id": 8,
-    "title": "The Little Mermaid",
-    "genre": ["Fantasy", "Romance", "Family"],
-    "image": "https://image.tmdb.org/t/p/w500/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg"
-  },
-  {
-    "id": 9,
-    "title": "Edward Scissorhands",
-    "genre": ["Fantasy", "Romance", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/1RFIbuW9Z3eN6O6a7ZBq5xZr9qV.jpg"
-  },
-  {
-    "id": 10,
-    "title": "The Curious Case of Benjamin Button",
-    "genre": ["Fantasy", "Romance", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/26wEWZYt6yJkwRVkjcbwJEFh9IS.jpg"
-  },
-  {
-    "id": 11,
-    "title": "About Time",
-    "genre": ["Romance", "Fantasy", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/7D2RrgpXreI7q9d3S9nA3Wf7d2k.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Midnight in Paris",
-    "genre": ["Fantasy", "Romance", "Comedy"],
-    "image": "https://image.tmdb.org/t/p/w500/4wBG5kbfagTQclETblPRRGihk0I.jpg"
-  },
-  {
-    "id": 13,
-    "title": "The Age of Adaline",
-    "genre": ["Romance", "Fantasy", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/od8A9mWj9B2s4Pq2n0z2yN1Yx7L.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Your Name",
-    "genre": ["Fantasy", "Romance", "Animation"],
-    "image": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Weathering With You",
-    "genre": ["Fantasy", "Romance", "Animation"],
-    "image": "https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg"
-  },
-  {
-    "id": 16,
-    "title": "Howl's Moving Castle",
-    "genre": ["Fantasy", "Romance", "Animation"],
-    "image": "https://image.tmdb.org/t/p/w500/TkTPELv4kC3u1lkloush8skOjE.jpg"
-  },
-  {
-    "id": 17,
-    "title": "The Time Traveler's Wife",
-    "genre": ["Romance", "Fantasy", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/4cQK8cJX3qjE7zvY4xXHzkwmo7a.jpg"
-  },
-  {
-    "id": 18,
-    "title": "Ruby Sparks",
-    "genre": ["Fantasy", "Romance", "Comedy"],
-    "image": "https://image.tmdb.org/t/p/w500/6X8RZpJqJ5E2l50Tzw9uQWGWp9J.jpg"
-  },
-  {
-    "id": 19,
-    "title": "Warm Bodies",
-    "genre": ["Fantasy", "Romance", "Comedy"],
-    "image": "https://image.tmdb.org/t/p/w500/9qUqQ8qv0hYz2X5V9V8vQX5P8ZP.jpg"
-  },
-  {
-    "id": 20,
-    "title": "The Fountain",
-    "genre": ["Fantasy", "Romance", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/mfKk4B9dYj1WFJsbgx5caX5WDH5.jpg"
-  },
-  {
-    "id": 21,
-    "title": "Penelope",
-    "genre": ["Fantasy", "Romance", "Comedy"],
-    "image": "https://image.tmdb.org/t/p/w500/pvQKQ5jTqS0bkkCm1cW0XkyRjO6.jpg"
-  },
-  {
-    "id": 22,
-    "title": "The Lake House",
-    "genre": ["Romance", "Fantasy", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/6x3E6M7s8mYy7K6e8X7p0xZ4H2P.jpg"
-  },
-  {
-    "id": 23,
-    "title": "Ella Enchanted",
-    "genre": ["Fantasy", "Romance", "Family"],
-    "image": "https://image.tmdb.org/t/p/w500/qf0xqvJ0J8s8q5k8t0l7y0h0p4.jpg"
-  },
-  {
-    "id": 24,
-    "title": "Legend",
-    "genre": ["Fantasy", "Romance", "Adventure"],
-    "image": "https://image.tmdb.org/t/p/w500/hv5qXhC8FAdZkGouVp21HbQJseb.jpg"
-  },
-  {
-    "id": 25,
-    "title": "Ladyhawke",
-    "genre": ["Fantasy", "Romance", "Adventure"],
-    "image": "https://image.tmdb.org/t/p/w500/gp8Y2sHqGgfHdCqkfNNpJBWlAbI.jpg"
-  },
-  {
-    "id": 26,
-    "title": "The Secret of Moonacre",
-    "genre": ["Fantasy", "Romance", "Family"],
-    "image": "https://image.tmdb.org/t/p/w500/y6vNruM3aMcMBXNIN1qNbfXDnpa.jpg"
-  },
-  {
-    "id": 27,
-    "title": "The Fall",
-    "genre": ["Fantasy", "Romance", "Adventure"],
-    "image": "https://image.tmdb.org/t/p/w500/t6zqW0YtL6ZooxOMm3mcVGhjmOY.jpg"
-  },
-  {
-    "id": 28,
-    "title": "Big Fish",
-    "genre": ["Fantasy", "Romance", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/tjK063yCgaBAluVU72rZ6PKPH2l.jpg"
-  },
-  {
-    "id": 29,
-    "title": "The Green Knight",
-    "genre": ["Fantasy", "Adventure", "Romance"],
-    "image": "https://image.tmdb.org/t/p/w500/gmQqmoHnrxlA9P8Y0F7QqK4ZfUO.jpg"
-  },
-  {
-    "id": 30,
-    "title": "The Shape of Things to Come",
-    "genre": ["Fantasy", "Romance", "Drama"],
-    "image": "https://image.tmdb.org/t/p/w500/9pX2Y4gE0Yv7FpC18JNpDutVCRa.jpg"
-  },
+{
+"id": 1,
+"title": "The Shape of Water",
+"genre": ["Romance","Fantasy","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/k4FwHlMhuRR5BISY2Gm2QZHlH5Q.jpg"
+},
+{
+"id": 2,
+"title": "Stardust",
+"genre": ["Fantasy","Adventure","Romance"],
+"image": "https://image.tmdb.org/t/p/w500/qh6zC6m3J6c2Kx1BvF3D8Y3bY8R.jpg"
+},
+{
+"id": 3,
+"title": "Beauty and the Beast",
+"genre": ["Fantasy","Romance","Family"],
+"image": "https://image.tmdb.org/t/p/w500/6aUWe0GSl69wMTSWWexsorMIvwU.jpg"
+},
+{
+"id": 4,
+"title": "The Princess Bride",
+"genre": ["Fantasy","Adventure","Romance"],
+"image": "https://image.tmdb.org/t/p/w500/dvjqlp2sAhUeFjUOfQDgCqj0VjD.jpg"
+},
+{
+"id": 5,
+"title": "Enchanted",
+"genre": ["Fantasy","Romance","Comedy"],
+"image": "https://image.tmdb.org/t/p/w500/8KzRk7l0G2m5YkN0rF3v9mV7G4B.jpg"
+},
+{
+"id": 6,
+"title": "Aladdin",
+"genre": ["Fantasy","Adventure","Romance"],
+"image": "https://image.tmdb.org/t/p/w500/3iYQTLGoy7QnjcUYRJy4YrAgGvp.jpg"
+},
+{
+"id": 7,
+"title": "Cinderella",
+"genre": ["Fantasy","Romance","Family"],
+"image": "https://image.tmdb.org/t/p/w500/oEhY7UwVYvG2H0tN8c6VbWm6q3b.jpg"
+},
+{
+"id": 8,
+"title": "The Little Mermaid",
+"genre": ["Fantasy","Romance","Family"],
+"image": "https://image.tmdb.org/t/p/w500/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg"
+},
+{
+"id": 9,
+"title": "Edward Scissorhands",
+"genre": ["Fantasy","Romance","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/1RFIbuW9Z3eN6O6a7ZBq5xZr9qV.jpg"
+},
+{
+"id": 10,
+"title": "The Curious Case of Benjamin Button",
+"genre": ["Fantasy","Romance","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/26wEWZYt6yJkwRVkjcbwJEFh9IS.jpg"
+},
+{
+"id": 11,
+"title": "About Time",
+"genre": ["Romance","Fantasy","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/7D2RrgpXreI7q9d3S9nA3Wf7d2k.jpg"
+},
+{
+"id": 12,
+"title": "Midnight in Paris",
+"genre": ["Fantasy","Romance","Comedy"],
+"image": "https://image.tmdb.org/t/p/w500/4wBG5kbfagTQclETblPRRGihk0I.jpg"
+},
+{
+"id": 13,
+"title": "The Age of Adaline",
+"genre": ["Romance","Fantasy","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/od8A9mWj9B2s4Pq2n0z2yN1Yx7L.jpg"
+},
+{
+"id": 14,
+"title": "Your Name",
+"genre": ["Fantasy","Romance","Animation"],
+"image": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg"
+},
+{
+"id": 15,
+"title": "Weathering With You",
+"genre": ["Fantasy","Romance","Animation"],
+"image": "https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg"
+},
+{
+"id": 16,
+"title": "Howl's Moving Castle",
+"genre": ["Fantasy","Romance","Animation"],
+"image": "https://image.tmdb.org/t/p/w500/TkTPELv4kC3u1lkloush8skOjE.jpg"
+},
+{
+"id": 17,
+"title": "The Time Traveler's Wife",
+"genre": ["Romance","Fantasy","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/4cQK8cJX3qjE7zvY4xXHzkwmo7a.jpg"
+},
+{
+"id": 18,
+"title": "Ruby Sparks",
+"genre": ["Fantasy","Romance","Comedy"],
+"image": "https://image.tmdb.org/t/p/w500/6X8RZpJqJ5E2l50Tzw9uQWGWp9J.jpg"
+},
+{
+"id": 19,
+"title": "Warm Bodies",
+"genre": ["Fantasy","Romance","Comedy"],
+"image": "https://image.tmdb.org/t/p/w500/9qUqQ8qv0hYz2X5V9V8vQX5P8ZP.jpg"
+},
+{
+"id": 20,
+"title": "The Fountain",
+"genre": ["Fantasy","Romance","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/mfKk4B9dYj1WFJsbgx5caX5WDH5.jpg"
+},
+{
+"id": 21,
+"title": "Penelope",
+"genre": ["Fantasy","Romance","Comedy"],
+"image": "https://image.tmdb.org/t/p/w500/pvQKQ5jTqS0bkkCm1cW0XkyRjO6.jpg"
+},
+{
+"id": 22,
+"title": "The Lake House",
+"genre": ["Romance","Fantasy","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/6x3E6M7s8mYy7K6e8X7p0xZ4H2P.jpg"
+},
+{
+"id": 23,
+"title": "Ella Enchanted",
+"genre": ["Fantasy","Romance","Family"],
+"image": "https://image.tmdb.org/t/p/w500/qf0xqvJ0J8s8q5k8t0l7y0h0p4.jpg"
+},
+{
+"id": 24,
+"title": "Legend",
+"genre": ["Fantasy","Romance","Adventure"],
+"image": "https://image.tmdb.org/t/p/w500/hv5qXhC8FAdZkGouVp21HbQJseb.jpg"
+},
+{
+"id": 25,
+"title": "Ladyhawke",
+"genre": ["Fantasy","Romance","Adventure"],
+"image": "https://image.tmdb.org/t/p/w500/gp8Y2sHqGgfHdCqkfNNpJBWlAbI.jpg"
+},
+{
+"id": 26,
+"title": "The Secret of Moonacre",
+"genre": ["Fantasy","Romance","Family"],
+"image": "https://image.tmdb.org/t/p/w500/y6vNruM3aMcMBXNIN1qNbfXDnpa.jpg"
+},
+{
+"id": 27,
+"title": "The Fall",
+"genre": ["Fantasy","Romance","Adventure"],
+"image": "https://image.tmdb.org/t/p/w500/t6zqW0YtL6ZooxOMm3mcVGhjmOY.jpg"
+},
+{
+"id": 28,
+"title": "Big Fish",
+"genre": ["Fantasy","Romance","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/tjK063yCgaBAluVU72rZ6PKPH2l.jpg"
+},
+{
+"id": 29,
+"title": "The Green Knight",
+"genre": ["Fantasy","Adventure","Romance"],
+"image": "https://image.tmdb.org/t/p/w500/gmQqmoHnrxlA9P8Y0F7QqK4ZfUO.jpg"
+},
+{
+"id": 30,
+"title": "The Shape of Things to Come",
+"genre": ["Fantasy","Romance","Drama"],
+"image": "https://image.tmdb.org/t/p/w500/9pX2Y4gE0Yv7FpC18JNpDutVCRa.jpg"
+},
   {
     "id": 31,
     "title": "Three Thousand Years of Longing",
